@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*  # Ignore all .env files (like .env.local, .env.production)
+
+# Dependency directories
+jspm_packages/
+
+# Build directories
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# OS-specific files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Optional npm cache
+.npm/
+
+# Coverage directory (for code coverage reports)
+coverage/
+
+# Test directories
+test/
+tests/
+
+# Debugger config files
+*.debug
+*.vscode/
+
+# Package lock files (optional, if you want to allow different devs to have separate lock files)
+package-lock.json
+
+# Optional, for debugging with VSCode
+.vscode/
+
+# Compiled source files (e.g., TypeScript output if using TypeScript)
+*.tsbuildinfo
+
+# For git repositories with "yarn" usage (optional)
+yarn.lock
