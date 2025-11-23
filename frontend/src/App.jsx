@@ -6,6 +6,8 @@ import RagModule from "./components/MiniRAG.jsx";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("tagging");
+  console.log("Current API URL:", import.meta.env.VITE_API_URL || "Falling back to Localhost");
+
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans pb-20">
       <ConnectionStatus />
