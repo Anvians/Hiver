@@ -19,7 +19,7 @@ let embeddingModel = null;
 const apiKey = process.env.GOOGLE_API_KEY;
 const genAI = new GoogleGenerativeAI(apiKey);
 
-//  INITIALIZATION 
+//  INITIALIZATION of Backend
 async function initializeAI() {
     console.log(" Initializing Backend...");
     
