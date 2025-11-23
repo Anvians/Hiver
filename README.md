@@ -2,6 +2,7 @@
 Submitted by: **Ankit Sharma**
 
 **Date:** 23 November 2025
+
 **Tech Stack:** Node.js, Express, React, Google Gemini API (gemini-2.0-flash)
 
 ## How to Run the Project
@@ -30,11 +31,11 @@ Submitted by: **Ankit Sharma**
 
 To solve the problem of Customer Isolation (preventing data leaks between clients), I implemented a **Dynamic Few-Shot** Prompting architecture.
 
-* Data Storage: Emails are stored with a strict customer_id attribute.
+* Data Storage: Emails are stored with a strict `customer_id` attribute.
 
 * Runtime Logic: When a request arrives for CUST_A:
 
-    1. The system queries the database only for records where customer_id == 'CUST_A'.
+    1. The system queries the database only for records where `customer_id == 'CUST_A'`.
 
     2. It retrieves the last $N$ examples (Body + Tag) for that specific customer.
 
@@ -112,7 +113,7 @@ I tested multiple prompts to ensure consistent, debuggable output.
 
 I built a standard RAG (Retrieval Augmented Generation) pipeline:
 
-1. **Indexing:** KB_ARTICLES are embedded using text-embedding-004 on server startup.
+1. **Indexing:** `KB_ARTICLES` are embedded using text-embedding-004 on server startup.
 
 2. **Retrieval:** Incoming queries are embedded and compared using Cosine Similarity.
 
