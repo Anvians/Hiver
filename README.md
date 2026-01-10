@@ -1,7 +1,5 @@
-# Hiver AI Intern Assignment - Evaluation Report
-Submitted by: **Ankit Sharma**
 
-**Date:** 23 November 2025
+# Email System
 
 **Tech Stack:** Node.js, Express, React, Google Gemini API (gemini-2.0-flash)
 
