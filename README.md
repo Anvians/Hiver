@@ -1,5 +1,11 @@
 
-# Email System
+# Hiver - AI-Powered Email Management System
+**Hiver** is an intelligent email system built with modern web technologies that leverages AI (Google Gemini API) to help businesses manage, classify, and analyze customer emails with strict data isolation.
+
+
+## Core Functionality
+
+The project implements a comprehensive email management platform with three main components:
 
 **Tech Stack:** Node.js, Express, React, Google Gemini API (gemini-2.0-flash)
 
@@ -24,6 +30,9 @@
 * Select a customer from the dropdown to test isolation.
 
 ## Part A: Email Tagging Mini-System
+
+<img width="1873" height="960" alt="image" src="https://github.com/user-attachments/assets/8414cc02-bdec-44a2-a51d-2046e3810960" />
+
 
 ### 1. Approach & Architecture
 
@@ -77,6 +86,8 @@ I used **Gemini 2.0 Flash** for its speed and context window.
 
 ## Part B: Sentiment Analysis Prompt Evaluation
 
+<img width="1850" height="890" alt="image" src="https://github.com/user-attachments/assets/02312fd8-e1a0-4759-884a-5e408653857a" />
+
 ### 1. Prompt Iteration (Evaluation)
 
 I tested multiple prompts to ensure consistent, debuggable output.
@@ -106,6 +117,8 @@ I tested multiple prompts to ensure consistent, debuggable output.
     * Measure Precision (Did we catch all angry users?) and Recall (Did we avoid flagging neutral users as angry?).
 
 ### Part C: Mini-RAG (Knowledge Base)
+
+<img width="1908" height="820" alt="image" src="https://github.com/user-attachments/assets/ba59a942-2981-4789-b6b0-ed245967f2db" />
 
 ### 1. Approach
 
